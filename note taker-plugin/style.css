@@ -1,0 +1,53 @@
+#main-container {
+	min-width: 300px;
+	min-height: 300px;
+	background-color: #e6e6fa;
+}
+
+#start-button{
+	position: absolute;
+	bottom: 31px;
+	left: 7%;
+	border: 0;
+	background-color: transparent;
+	color: #2b5876;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: cursive;
+	cursor: pointer;
+}
+
+#start-button:focus{
+	outline: 0;
+}
+#main-container h1{
+	text-align: center;
+	margin: 0;
+	padding: 10px 0;
+	font-size: 21px;
+	font-family: monospace;
+	background-color:#800080;
+	color: #fff;
+}
+
+
+#new-note {
+	width: 96%;
+	min-height: 256px;
+	background-color: #e6e6fa;
+	border: 0;
+	display: block;
+	resize: vertical;
+	overflow: auto;
+	margin: 20px auto;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-family: cursive;
+}
+
+
+#new-note:focus{
+	border: 0;
+	outline: 0;
+}
+
